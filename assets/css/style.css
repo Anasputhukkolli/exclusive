@@ -1000,6 +1000,33 @@ color: #000;
 
 
   /* Responsive */
+  @media screen and (max-width: 1200px) {
+    .nav-links a{
+      font-size: 12px;
+    }
+    .search-bar{
+      width: 150px;
+    }
+    .search-container{
+      padding: 7px 14px;
+    }
+    .icons{
+      gap: 0;
+    }
+    .promo-content{
+      padding-left: 58px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .search-bar{
+      display: none;
+    }
+    .search-container{
+      background:none;
+    }
+
+  }
+
   @media screen and (max-width: 768px) {
   .top-banner {
     display: none;
