@@ -94,3 +94,12 @@
     
 
     renderCart();
+    document.getElementById("Wishlist").addEventListener("click", function () {
+      // Redirect to another page
+      window.location.href = "../pages/wishlist.html"; // Replace with your target URL
+    });
+
+    document.getElementById("viewMoreButton").addEventListener("click", function () {
+      // Redirect to another page
+      window.location.href = "../pages/spotlight.html"; // Replace with your target URL
+    });

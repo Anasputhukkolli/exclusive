@@ -113,6 +113,9 @@ body {
   .nav-links li {
     position: relative;
   }
+  .nav-links li:last-child {
+    display: none;
+  }
   
   .nav-links a {
     text-decoration: none;
@@ -1017,7 +1020,15 @@ color: #000;
     z-index: 100;
     border-radius: 10px;
   }
-  
+  .nav-links li:last-child {
+    display: block;
+  }
+  .search-container{
+    margin-bottom: 18px;
+  }
+  .search-bar{
+    width: 230px;
+  }
   .nav-links.active {
     right: 0;
   }
