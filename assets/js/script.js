@@ -171,7 +171,7 @@ function renderProducts(filteredProducts) {
     });
     document.getElementById("Wishlist").addEventListener("click", function () {
       // Redirect to another page
-      window.location.href = "./assets/pages/Wishlist.html"; // Replace with your target URL
+      window.location.href = "./assets/pages/wishlist.html"; // Replace with your target URL
     });
     document.getElementById("cart").addEventListener("click", function () {
       // Redirect to another page
