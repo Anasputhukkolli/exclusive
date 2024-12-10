@@ -159,7 +159,7 @@ const productse = [
    
       document.getElementById("Wishlist").addEventListener("click", function () {
         // Redirect to another page
-        window.location.href = "../pages/Wishlist.html"; // Replace with your target URL
+        window.location.href = "../pages/wishlist.html"; // Replace with your target URL
       });
       
       document.getElementById("cart").addEventListener("click", function () {
