@@ -1084,6 +1084,8 @@ color: #000;
     .promo-content {
         flex-direction: column;
         text-align: center;
+      padding-left: 0;
+
       }
     
       .promo-text {
